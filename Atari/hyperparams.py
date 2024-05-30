@@ -1,0 +1,19 @@
+class Hyperparameters:
+    env_id = "ALE/Breakout-v5"
+    exp_name = "dqn_breakout"
+    seed = 42
+    capture_video = True
+    total_timesteps = 100000
+    learning_rate = 1e-4
+    buffer_size = 10000  # Reduce the buffer size to 100,000
+    learning_starts = 1000
+    batch_size = 32
+    gamma = 0.99
+    tau = 1.0
+    train_frequency = 4
+    target_network_frequency = 1000
+    exploration_fraction = 0.1
+    start_e = 1.0
+    end_e = 0.02
+    torch_deterministic = True
+    save_model = True
