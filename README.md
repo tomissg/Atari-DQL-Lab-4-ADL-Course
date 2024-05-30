@@ -5,3 +5,4 @@ This is an repository for training a DQL model in order to teach an agent to pla
 
 Most of the code is provided by the course material of Advanve Deep Learning Course from Lulea University of technology and small adjastmends happened from myself such as saving some training videos and saving the last model and some hyperparameter changes if needed. 
 
+Also A small agent playing a simple obsticle game had been made using QL model. The enviroment created is a simple one with 3 obsticles randomly placed in the grid and the agend tries to find the best policy for not hiting those obsticles and go to the end.
